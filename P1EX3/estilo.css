@@ -1,0 +1,16 @@
+img{
+    height: 450px;
+    width: 450px;
+    position: relative;
+    left: 400px;
+    bottom: 150px;
+}
+h4{
+    position: relative;
+    left: 400px;
+    bottom: 150px;
+}
+body{
+    background-color: rgb(167, 241, 241);
+    font-family: Arial;
+}

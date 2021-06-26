@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="./estilo.css">
+    </head>
+    <body>
+        <div>
+            <h1>Numerário</h1>
+            Id<input type="text" id="campoId" placeholder="Id"><br>
+
+            Horas Tabalhadas<input type="number" id="campoHoras" maxlength="8" 
+            placeholder="ex: 00:00:00"><br>
+
+            Salário Hora<input type="number" id="campoSalarioHora" placeholder="R$ "><br>
+
+            <input type="button" value="Calcular" id="btnCalcular" onclick="calcular()">
+            <input type="reset" value="Limpar" id="btnLimpar" onclick="limpar()"><br>
+        </div>
+        <div>
+            <table>
+                <tr>
+                    <td><img src="https://i.colnect.net/f/2919/275/1-Real.jpg"></td>
+                    <td><img src="https://upload.wikimedia.org/wikipedia/pt/b/bd/Anverso_da_c%C3%A9dula_de_5_reais.PNG"></td>
+                    <td><img src="https://upload.wikimedia.org/wikipedia/pt/1/1e/Anverso_da_c%C3%A9dula_de_dois_reais.PNG"></td>
+                    <td><img src="https://s3.amazonaws.com/img.iluria.com/product/526F6A/C894C4/450xN.jpg" width="358" height="182"></td>
+                </tr>
+                <tr>
+                    <td align="center" id="nota1">0</td>
+                    <td align="center" id="nota2">0</td>
+                    <td align="center" id="nota5">0</td>
+                    <td align="center" id="nota10">0</td>
+                </tr>
+                <tr>
+                    <td><img src="https://s3.amazonaws.com/img.iluria.com/product/66AAC6/FD0C24/450xN.jpg" width="358" height="182"></td>
+                    <td><img src="https://s3.amazonaws.com/img.iluria.com/product/69540C/10423A8/450xN.jpg" width="358" height="182"></td>
+                    <td><img src="https://s3.amazonaws.com/img.iluria.com/product/6CEDB0/10DAD72/450xN.jpg" width="358" height="182"></td>
+                <tr>
+                    <td align="center" id="nota20">0</td>
+                    <td align="center" id="nota50">0</td>
+                    <td align="center" id="nota100">0</td>
+                    <td align="center" id="total">Total de salario: R$</td>
+                </tr>
+                <tr>
+                    <td><img src="https://www.bcb.gov.br/novasnotas/assets/img/section/200/200_back.jpg" width="358" height="182"></td>
+                </tr>
+                <tr>
+                    <td align="center" id="nota200">0</td>
+                </tr>
+            </table>
+        </div>
+    </body>
+    <script 
+        type="text/javascript" src="./script.js">
+    </script>
+</html>
+
